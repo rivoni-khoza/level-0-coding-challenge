@@ -1,18 +1,11 @@
-function stringTovowels(vowels) {
-  var result = "";
+function stringToVowel(vow){
+ 
+ var vow = ("vowels");
+ var vowRegex = /[aeiou]i/;
+ 
+ let results =  vow.match(vowRegex);
 
-  
-  var lookup = {
-    "1": "a",
-    "2": "e",
-    "3": "i",
-    "4": "o",
-    "5": "u",
-   
-  };
-  result = lookup[vowels];
-  return result;
-}
+ console.log(results);
+ 
+}stringToVowel()
 
-
-console.log(stringTovowels("4")),console.log(stringTovowels("2"));
